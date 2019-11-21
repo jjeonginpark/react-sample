@@ -117,6 +117,7 @@ class App extends React.Component {
         var newContents = Object.assign([],this.state.contents);
 
         newContents.push(formData);
+        
         this.setState({
           contents : newContents,
           selected_content_id:this.last_content_id,
